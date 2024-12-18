@@ -7,15 +7,17 @@ IMPORTANT - the restraints are for 1C4 conformation. for 4C1, changing the "-60"
 
 The formatting is as follows:
 
+```plaintext
 #ifdef PUCKER
 [ dihedral_restraints ]
-   C1    O5    C5    C4     1    -60.0      2.5       DIHRES_FC 
-   O5    C5    C4    C3     1     60.0      2.5       DIHRES_FC 
-   C5    C4    C3    C2     1    -60.0      2.5       DIHRES_FC 
-   C4    C3    C2    C1     1     60.0      2.5       DIHRES_FC  
-   C3    C2    C1    O5     1    -60.0      2.5       DIHRES_FC 
-   C2    C1    O5    C5     1     60.0      2.5       DIHRES_FC  
-#endif   
+   C1    O5    C5    C4     1    -60.0      2.5       DIHRES_FC
+   O5    C5    C4    C3     1     60.0      2.5       DIHRES_FC
+   C5    C4    C3    C2     1    -60.0      2.5       DIHRES_FC
+   C4    C3    C2    C1     1     60.0      2.5       DIHRES_FC
+   C3    C2    C1    O5     1    -60.0      2.5       DIHRES_FC
+   C2    C1    O5    C5     1     60.0      2.5       DIHRES_FC
+#endif
+```
 
 Usage:
    - Provide the path to the `.itp` file containing the sugar topology.
